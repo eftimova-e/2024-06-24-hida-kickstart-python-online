@@ -219,11 +219,11 @@ special instructions.
   attempt to provide them.
 </p>
 {% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. 
-  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
-  However, we do want to help create an inclusive, accessible experience for all participants. 
+  We are dedicated to providing a positive and accessible learning environment for all.
+  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information.
+  However, we do want to help create an inclusive, accessible experience for all participants.
   We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-  To request an accommodation for this workshop, please fill out the 
+  To request an accommodation for this workshop, please fill out the
   <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
@@ -419,9 +419,8 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software, as described <a href="https://swcarpentry.github.io/python-novice-gapminder/">here</a>.
-</p> Complete the 'Summary and Setup' section. If you come across difficulties, please contact the instructors.
-
+  you will need access to software as described below.
+  In addition, you will need an up-to-date web browser.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -448,7 +447,6 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% comment %}
 {% if site.carpentry == "swc" %} -->
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
@@ -460,4 +458,3 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
-{% endcomment %}
