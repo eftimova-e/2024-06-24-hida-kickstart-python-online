@@ -419,8 +419,8 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  you will need access to software, as described in https://swcarpentry.github.io/python-novice-gapminder/. Complete the 'Summary and Setup' section. If you come across difficulties, please contact the instructors.
+
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
